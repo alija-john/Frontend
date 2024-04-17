@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #864e4e;
+}
+
+
+.auth-form-container {
+  border:solid rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 10px 20px;
+  gap: 1em;
+  width: 607px;
+}
+
+
+.login-form {
+  display:flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.register-form{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.login-inputs {
+  display:flex;
+  flex-direction: column;
+}
+
+.register-inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-inputs label{
+  align-self: flex-start;
+  color: #717171;
+}
+
+.register-inputs label{
+  align-self:flex-start ;
+  color: #717171;
+}
+
+.login-form button{
+  border:2px solid white;
+  outline: none;
+  width: 100px;
+  align-self : center;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  background-color: transparent;
+  color: white;
+}
+
+.register-form button{
+  border:2px solid white;
+  outline: none;
+  width: 100px;
+  align-self : center;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  background-color: transparent;
+  color: white;
+}
+
+.login-inputs input{
+  border: 1px solid #414141;
+  border-radius: 5px;
+  padding:10px;
+  background-color: transparent;
+}
+
+.register-inputs input{
+  border: 1px solid #414141;
+  border-radius: 5px;
+  padding:10px;
+  background-color: transparent;
+}
+
+.mainlogo img{
+  width: 80px;
+height: 93.6px;
+top: 23px;
+left: 680px;
+gap: 0px;
+opacity: 0px;
+}
+
+.namelogo img{
+  width: 242.59px;
+height: 33px;
+top: 117px;
+left: 599px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.link-btn span{
+  color :white;
+  cursor: pointer;
+}
+
+.login-container , .register-container{
+  display: flex;
+  flex-direction: column;
+  gap:2em;
+}
+
+
+
+
